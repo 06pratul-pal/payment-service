@@ -5,7 +5,7 @@
 DB_HOST = "prod-db.payment-service.internal"
 DB_PORT = 5432
 DB_NAME = "payments"
-DB_POOL_SIZE = 5  # BUG! Should be 20 - this caused the outage
+DB_POOL_SIZE = 20  # FIXED: restored from 5 to 20
 DB_TIMEOUT = 30
 
 # Payment Gateway
